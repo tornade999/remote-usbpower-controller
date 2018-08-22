@@ -1,6 +1,5 @@
 require 'sinatra'
-require 'line/bot'
 
-get '/hoge' do
+get '/' do
   "Hello world"
 end
